@@ -19,7 +19,7 @@ A convenient, beautifully written introduction on Designing Programs can be foun
 
 ### computation
 
-algorithms (based on the diagram)
+![complexity diagram](https://raw.githubusercontent.com/stc/generative-art-workshop/main/assets/algo-complexity.png)
 
 ### representation
 
