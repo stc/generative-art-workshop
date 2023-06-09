@@ -1,4 +1,4 @@
-const rectangles = [];
+let rectangles = [];
 
 function setup () {
   createCanvas(windowWidth, windowHeight);
@@ -6,13 +6,13 @@ function setup () {
   
   let rectangleCount = 10;
   for (let i = 0; i < rectangleCount; i++) {
-    const shrink = 0.5;
-    const position = [
+    let shrink = 0.5;
+    let position = [
       random(-1, 1) * shrink,
       random(-1, 1) * shrink
     ];
-    const scale = random(0.5, 1);
-    const size = [
+    let scale = random(0.5, 1);
+    let size = [
       random(0, 1) * scale,
       random(0, 1) * scale
     ];
