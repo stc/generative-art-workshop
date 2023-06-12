@@ -1,5 +1,5 @@
 # generative-art-workshop
-Introduction to algorithmic thinking, instruction based and generative art, using [p5js](https://p5js.org/) &amp; Javascript
+Introduction to algorithmic thinking, instruction based and generative art using [p5js](https://p5js.org/) &amp; Javascript
 
 ![examples](https://raw.githubusercontent.com/stc/generative-art-workshop/main/assets/examples.jpg)
 
