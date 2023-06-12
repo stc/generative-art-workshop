@@ -4,7 +4,7 @@ function setup () {
   createCanvas(windowWidth, windowHeight);
   noLoop();
   
-  let rectangleCount = 10;
+  let rectangleCount = 30;
   for (let i = 0; i < rectangleCount; i++) {
     let shrink = 0.5;
     let position = [
