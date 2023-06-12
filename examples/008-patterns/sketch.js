@@ -25,7 +25,6 @@ function draw(){
     }
   }
   pop();
-  
 }
 
 function drawRandomLine(x, y, step) {

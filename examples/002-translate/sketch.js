@@ -22,13 +22,13 @@ function draw(){
   rect(x, y, size, size);
   pop();
   
-  push();
+  /*push();
   translate(-size / 4, -size / 4);
   triangle(
     x, y - size / 2,
     x + size / 2, y + size / 2,
     x - size / 2, y + size / 2
-  );
+  );*/
 }
 
 function windowResized () {
