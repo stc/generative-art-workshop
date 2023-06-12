@@ -19,7 +19,7 @@ function draw(){
   
   push();
   translate(size / 4, size / 4);
-  ellipse(x, y, size, size);
+  rect(x, y, size, size);
   pop();
   
   push();

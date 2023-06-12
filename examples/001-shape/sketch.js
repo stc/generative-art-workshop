@@ -15,7 +15,6 @@ function draw(){
   let x = width / 2;
   let y = height / 2;
   
-  
   rectMode(CENTER);
   rect(x, y, size, size);
 }
