@@ -38,6 +38,16 @@ We are using the free and open source [p5js](https://p5js.org/) library to creat
 
 The basic examples are available within the `examples` folder of this repository. they are also available to try in the online editor for easier access:
 
+- empty
+- shape
+- translate
+- loop
+- rotate
+- rectangles
+- colors
+- recursion
+- patterns
+- noise
 
 ## resources
 
