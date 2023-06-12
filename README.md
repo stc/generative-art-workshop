@@ -1,6 +1,8 @@
 # generative-art-workshop
 Introduction to algorithmic thinking, instruction based and generative art, using [p5js](https://p5js.org/) &amp; Javascript
 
+![examples](https://raw.githubusercontent.com/stc/generative-art-workshop/main/assets/examples.jpg)
+
 This workshop introduces the fundamentals of algorithmic thinking and generative computer imaging. Participants can learn how to make artworks and creative visualizations using data, code, and interaction. Since there is an increasing overlap between cultural and human fields with technological and engineering domains among dynamically evolving networked communities, new kinds of languages are emerging that require both analytical and logical thinking as well as intuitive and proactive approaches from creators.
 
 Generative art refers to art that in whole or in part has been created with the use of autonomous systems. An autonomous system in this context is generally one that is non-human and can independently determine features of an artwork that would otherwise require decisions made directly by the artist. Very often, this system relies on repetition, geometric transformations or randomness, but you can feed it any kind of value from simple noise to complex data or your own formalized systems.
