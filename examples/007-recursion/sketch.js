@@ -2,8 +2,8 @@ let maxDepth=6;
 let colors=[];
 
 function setup () {
-  createCanvas(windowWidth,windowHeight);
-  noLoop();
+  	createCanvas(windowWidth,windowHeight);
+  	noLoop();
 	noFill();
 	noStroke();
 	colors = [
@@ -16,8 +16,9 @@ function setup () {
 					]
 	
 	drawGrid(0,0, width, height, true);
-	
 }
+
+function draw() {}
 
 function drill(){
 	return random()>0.5;

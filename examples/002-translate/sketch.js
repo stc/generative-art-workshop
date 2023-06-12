@@ -2,10 +2,6 @@ function setup () {
   createCanvas(windowWidth, windowHeight);
 }
 
-function windowResized () {
-  resizeCanvas(windowWidth, windowHeight);
-}
-
 function draw(){
   blendMode(BLEND);
   background(255);
@@ -33,4 +29,8 @@ function draw(){
     x + size / 2, y + size / 2,
     x - size / 2, y + size / 2
   );
+}
+
+function windowResized () {
+  resizeCanvas(windowWidth, windowHeight);
 }

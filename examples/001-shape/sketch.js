@@ -2,10 +2,6 @@ function setup () {
   createCanvas(windowWidth, windowHeight);
 }
 
-function windowResized () {
-  resizeCanvas(windowWidth, windowHeight);
-}
-
 function draw(){
   background(255);
   
@@ -22,9 +18,9 @@ function draw(){
   
   rectMode(CENTER);
   rect(x, y, size, size);
-  triangle(
-    x, y - size / 2,
-    x + size / 2, y + size / 2,
-    x - size / 2, y + size / 2
-  );
 }
+
+function windowResized () {
+  resizeCanvas(windowWidth, windowHeight);
+}
+

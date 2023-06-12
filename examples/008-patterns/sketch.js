@@ -3,10 +3,6 @@ function setup () {
   noLoop();
 }
 
-function windowResized () {
-  resizeCanvas(windowWidth, windowHeight);
-}
-
 function draw(){
   background(255);
   
@@ -38,4 +34,8 @@ function drawRandomLine(x, y, step) {
   } else {
     line(x + step, y, x, y + step);
   }
+}
+
+function windowResized () {
+  resizeCanvas(windowWidth, windowHeight);
 }

@@ -2,10 +2,6 @@ function setup () {
   createCanvas(windowWidth, windowHeight);
 }
 
-function windowResized () {
-  resizeCanvas(windowWidth, windowHeight);
-}
-
 function draw(){
   background(255);
   
@@ -32,4 +28,8 @@ function draw(){
   rect(0, 0, size, size);
 
   pop();
+}
+
+function windowResized () {
+  resizeCanvas(windowWidth, windowHeight);
 }

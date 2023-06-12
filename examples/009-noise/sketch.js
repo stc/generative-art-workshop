@@ -1,79 +1,79 @@
-let dragging = false;
-let minFrequency = 0.5;
-let maxFrequency = 2;
-let minAmplitude = 0.05;
-let maxAmplitude = 0.5;
-
-let amplitude;
-let frequency;
-
-// Included in index.html
-// This is an alternative to p5.js builtin 'noise' function,
-// It provides 4D noise and returns a value between -1 and 1
-let simplex = new SimplexNoise();
+let particles = [];
+let n = 500;
+let pal;
+let squiggliness = 1/1000;
+let lineStroke = 1;
+let freq = 4;
 
 function setup () {
   createCanvas(windowWidth, windowHeight);
-  
-  mouseX = width / 2;
-  mouseY = height / 2;
+
+  pal = ["#04a3bd", "#f0be3d", "#931e18", "#da7901", "#247d3f", "#20235b"]
+  updateParticles();
+
+  noStroke();
+  background(255);
+}
+
+function draw (){
+  for (let p of particles) {
+    p.draw();
+    p.move();
+    p.stop();
+  }
+}
+
+function updateParticles(){
+  particles = [];
+  for(let x = 0; x<width; x+=freq){
+    let x_ = x;
+    let s_ = lineStroke;
+    let cNum = floor(random(pal.length))
+    let c_ = color(pal[cNum])
+    particles.push(new Particle(x_, 0, s_, c_));
+    particles.push(new Particle(x_, height, s_, c_));
+  }
+  for(let y = 0; y< height; y+=freq){
+    let y_ = y;
+    let s_ = lineStroke;
+    let cNum = floor(random(pal.length))
+    let c_ = color(pal[cNum])
+    particles.push(new Particle(0, y_, s_, c_));
+    particles.push(new Particle(width, y_, s_, c_));
+  }
+}
+
+class Particle {
+  constructor(x, y, s, c){
+    this.x = x;
+    this.y = y;
+    this.size = s;
+    this.c = c;
+
+    this.alpha = 70; 
+    this.dist = 0.75;
+  }
+  move(){
+    let theta = noise(this.x * squiggliness, this.y * squiggliness) * PI * 2;
+    let v = p5.Vector.fromAngle(theta, this.dist) 
+    this.x += v.x;
+    this.y += v.y;
+    this.alpha *= 1;
+  }
+  draw(){
+    fill(this.c)
+    ellipse(this.x, this.y, this.size)
+  }
+  stop(){
+    if(this.x>width || this.x<0){
+      this.dist = 0;
+    }
+    if(this.y>height || this.height<0){
+      this.dist = 0;
+    }
+  }
 }
 
 function windowResized () {
   resizeCanvas(windowWidth, windowHeight);
-}
-
-function draw (){
-  background(255);
-  
-  let frequency = lerp(minFrequency, maxFrequency, mouseX / width);
-  let amplitude = lerp(minAmplitude, maxAmplitude, mouseY / height);
-  
-  let size = height/2;
-  
-  noFill();
-  stroke(0);
-  strokeWeight(size * 0.05);
-  
-  let time = millis() / 1000;
-  let rows = 10;
-
-  for (let y = 0; y < rows; y++) {
-    const v = rows <= 1 ? 0.5 : y / (rows - 1);
-    const py = v * height;
-    drawNoiseLine({
-      v,
-      start: [ 0, py ],
-      end: [ width, py ],
-      amplitude: amplitude * height,
-      frequency,
-      time: time * 0.5,
-      steps: 150
-    });
-  }
-}
-
-function drawNoiseLine (opt = {}) {
-  let {
-    v,
-    start,
-    end,
-    steps = 10,
-    frequency = 1,
-    time = 0,
-    amplitude = 1
-  } = opt;
-  
-  let [ xStart, yStart ] = start;
-  let [ xEnd, yEnd ] = end;
-
-  beginShape();
-  for (let i = 0; i < steps; i++) {
-    let t = steps <= 1 ? 0.5 : i / (steps - 1);
-    let x = lerp(xStart, xEnd, t);
-    let y = lerp(yStart, yEnd, t);
-    y += (simplex.noise3D(t * frequency + time, v * frequency, time)) * amplitude;
-    vertex(x, y);
-  }
-  endShape();
 }

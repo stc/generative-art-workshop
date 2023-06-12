@@ -2,10 +2,6 @@ function setup () {
   createCanvas(windowWidth, windowHeight);
 }
 
-function windowResized () {
-  resizeCanvas(windowWidth, windowHeight);
-}
-
 function draw(){
   background(255);
   
@@ -25,4 +21,8 @@ function draw(){
   stroke(0);
   strokeWeight(thickness);
   ellipse(px, py, size, size);
+}
+
+function windowResized () {
+  resizeCanvas(windowWidth, windowHeight);
 }
