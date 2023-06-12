@@ -24,7 +24,7 @@ function setup () {
 }
 
 function draw(){
-  background(255);
+  background(200);
   
   strokeJoin(MITER);
   rectMode(CENTER);
@@ -40,7 +40,7 @@ function draw(){
     push();
     translate(width / 2, height / 2);
     scale(size, size);
-    strokeWeight(0.015);
+    strokeWeight(0.008);
     rect(x, y, w, h);
     pop();
   }
