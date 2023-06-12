@@ -4,13 +4,13 @@ function setup () {
 }
 
 function draw(){
-  background(255);
+  background(0,0,255);
   
   let size = height/2;
   
   strokeJoin(ROUND);
   strokeWeight(size * 0.015);
-  stroke(0);
+  stroke(255);
   noFill();
 
   let step = 25;
