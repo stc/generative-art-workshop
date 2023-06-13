@@ -38,16 +38,18 @@ We are using the free and open source [p5js](https://p5js.org/) library to creat
 
 The basic sketches are available within the `examples` folder of this repository, however they are also available to try in the online editor for easier access:
 
-- empty
-- shape
-- translate
-- loop
-- rotate
-- rectangles
-- colors
-- recursion
-- patterns
-- noise
+- [empty](https://editor.p5js.org/stc/sketches/6pm0J_GuY): create an empty canvas in the browser window
+- [shape](https://editor.p5js.org/stc/sketches/uTPLZtvik): display a shape on the canvas
+- [translate](https://editor.p5js.org/stc/sketches/pLjQFItyU): translate shapes in the coordinate system
+- [loop](https://editor.p5js.org/stc/sketches/Nv2S5fE8o): animate the contour of a shape over time
+- [rotate](https://editor.p5js.org/stc/sketches/cw9fTuq9l): rotate a shape over time 
+- [rectangles](https://editor.p5js.org/stc/sketches/XEaW4Nxml): display many random rectangles 
+- [colors](https://editor.p5js.org/stc/sketches/DYuD3jL3G): iterating over color systems
+- [recursion](https://editor.p5js.org/stc/sketches/OQ3F3E4W6): a function that calls itself
+- [patterns](https://editor.p5js.org/stc/sketches/wgcnEYHsu): grids, repetition, tiling
+- [noise](https://editor.p5js.org/stc/sketches/aCLrvuB5s): classes, particle systems, perlin noise
 
 ## resources
+
+(...)
 
