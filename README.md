@@ -14,9 +14,9 @@ Generative art refers to art that in whole or in part has been created with the 
 
 A convenient, beautifully written introduction on Designing Programs can be found [here](https://designingprograms.bitbucket.io/index.html). A more comprehensive guide on the JavaScript language can be found [here](https://javascript.info/) and there is a [cheatsheet](https://htmlcheatsheet.com/js/) that might become handy to use as a reference. Since we are using the [p5js](https://p5js.org/) library to display shapes, colors and motion in the canvas, make sure to check the [getting started](https://p5js.org/get-started/) section and explore the [reference](https://p5js.org/reference/) to see the capabilities of the language modules. There are three main concepts we are covering during the intro section:
 
-- variables: storing data
-- functions: manipulate data
-- events: loops, conditionals and structure
+- _variables_: storing data
+- _functions_: manipulate data
+- _events_: loops, conditionals and structure
 
 
 ### computation
