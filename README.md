@@ -32,7 +32,7 @@ Since generative art represents internal structures of formalized systems, it us
 
 ## tools
 
-We are using the free and open source [p5js](https://p5js.org/) library to create shapes and forms on the canvas, in Javascript language. The simplest way to get started is to use the excellent [online p5 editor](https://editor.p5js.org/), however if you plan to bring your pieces offline and continue working on them in a more elaborative way, it is useful to clone this repository and use the open source, cross platform editor [VSCodium](https://vscodium.com/) with your projects. 
+We are using the free and open source [p5js](https://p5js.org/) library to create shapes and forms on the canvas, in Javascript language. The simplest way to get started is to use the excellent [online p5 editor](https://editor.p5js.org/), however if you plan to bring your pieces offline and continue working on them in a more elaborative way, it is useful to [clone this repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) and use the open source, cross platform editor [VSCodium](https://vscodium.com/) with your projects. 
 
 ## examples
 
