@@ -51,5 +51,24 @@ The basic sketches are available within the `examples` folder of this repository
 
 ## resources
 
-(...)
+### algorithms & code
+- [The nature of Code](https://natureofcode.com/) by Daniel Shiffman
+- [Algorithmic Rituals](https://www.e-flux.com/journal/101/273221/three-thousand-years-of-algorithmic-rituals-the-emergence-of-ai-from-the-computation-of-space/) by Matteo Pasquinelli 
+- [Conditional Design](https://conditionaldesign.org/) by Luna Maurer et al
+- [Morphogenesis Resources](https://awesomeopensource.com/project/jasonwebb/morphogenesis-resources) by Jason Webb
+- [Designing Programs](https://designingprograms.bitbucket.io/index.html) by Mark Webster
+
+### visual language & art
+- [Early Computer Art](https://www.amygoodchild.com/blog/computer-art-50s-and-60s) by Amy GoodChild
+- [Long-form Generative Art](https://mirror.xyz/buffets.eth/33Qj-lYWwBTkxo1K5lJJ1MHgeZmc-i0jXoCAdzyEFZU) by Eugene Ang
+- [Color Arrangement](https://tylerxhobbs.com/essays/2021/color-arrangement-in-generative-art) by Tyler Hobbs
+- [Generative Art Systems](https://www.fxhash.xyz/article/generative-art-systems-an-epistemological-approach) by me
+
+### web3 & cryptoart communities 
+- [After the Creator Economy](https://collect.metalabel.xyz/files/After-The-Creator-Economy.pdf) by Metalabel
+- [Crypto Art Reading List](https://github.com/crcdng/nft-reading-list/blob/main/reading.md) by Michael Straeubig
+- [Tezos Art Communities](https://www.fxhash.xyz/article/tezos-art-communities) by me
+- [Radical Friends](https://ruthcatlow.net/?works=radical-friends-decentralised-autonomous-organisations-and-the-arts) by Ruth Catlow and Penny Rafferty
+
+
 
