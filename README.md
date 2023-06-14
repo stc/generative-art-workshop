@@ -71,6 +71,7 @@ The basic sketches are available within the `examples` folder of this repository
 - [Crypto Art Reading List](https://github.com/crcdng/nft-reading-list/blob/main/reading.md) by Michael Straeubig
 - [Tezos Art Communities](https://www.fxhash.xyz/article/tezos-art-communities) by me
 - [Radical Friends](https://ruthcatlow.net/?works=radical-friends-decentralised-autonomous-organisations-and-the-arts) by Ruth Catlow and Penny Rafferty
+- [Right Click Save](https://www.rightclicksave.com/) by ClubNFT
 
 
 
