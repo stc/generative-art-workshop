@@ -21,7 +21,7 @@ A convenient, beautifully written introduction on Designing Programs can be foun
 
 ### computation
 
-For an image of reasonable size, even the simplest algorithms require too much calculation for manual execution to be practical, and they are thus executed on either a single computer or on a cluster of computers. The final output is typically displayed on a screen, printed with a raster-type printer, or drawn using a plotter. Variability can be introduced by using pseudo-random numbers.  
+For an image of reasonable size, even the simplest algorithms require too much calculation for manual execution to be practical, and they are thus executed on either a single computer or on a cluster of computers. The final output is typically displayed on a screen, printed with a raster-type printer, or drawn using a plotter. Variability can be introduced by using pseudo-random numbers. On the workshop we cover a wide range of computational concepts and algorithms from ordered structures to chaotic systems, based on the findings in a conference paper on [Artificial Intelligence and Problems in Generative Art Theory](https://www.researchgate.net/publication/334643022_Artificial_Intelligence_and_Problems_in_Generative_Art_Theory) by Philip Galanter.  
 
 ![complexity diagram](https://raw.githubusercontent.com/stc/generative-art-workshop/main/assets/algo-complexity.png)
 
@@ -57,6 +57,7 @@ The basic sketches are available within the `examples` folder of this repository
 - [Conditional Design](https://conditionaldesign.org/) by Luna Maurer et al
 - [Morphogenesis Resources](https://awesomeopensource.com/project/jasonwebb/morphogenesis-resources) by Jason Webb
 - [Designing Programs](https://designingprograms.bitbucket.io/index.html) by Mark Webster
+- [Artificial Intelligence and Problems in Generative Art Theory](https://www.researchgate.net/publication/334643022_Artificial_Intelligence_and_Problems_in_Generative_Art_Theory) by Philip Galanter
 
 ### visual language & art
 - [Early Computer Art](https://www.amygoodchild.com/blog/computer-art-50s-and-60s) by Amy GoodChild
