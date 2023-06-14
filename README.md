@@ -52,7 +52,7 @@ The basic sketches are available within the `examples` folder of this repository
 ## resources
 
 ### algorithms & code
-- [The nature of Code](https://natureofcode.com/) by Daniel Shiffman
+- [The Nature of Code](https://natureofcode.com/) by Daniel Shiffman
 - [Algorithmic Rituals](https://www.e-flux.com/journal/101/273221/three-thousand-years-of-algorithmic-rituals-the-emergence-of-ai-from-the-computation-of-space/) by Matteo Pasquinelli 
 - [Conditional Design](https://conditionaldesign.org/) by Luna Maurer et al
 - [Morphogenesis Resources](https://awesomeopensource.com/project/jasonwebb/morphogenesis-resources) by Jason Webb
