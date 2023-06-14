@@ -60,6 +60,7 @@ The basic sketches are available within the `examples` folder of this repository
 - [Artificial Intelligence and Problems in Generative Art Theory](https://www.researchgate.net/publication/334643022_Artificial_Intelligence_and_Problems_in_Generative_Art_Theory) by Philip Galanter
 
 ### visual language & art
+- [Pedagogical Sketchbook](https://www.bauhaus-bookshelf.org/bauhaus_book_2_paul_klee_pedagogical_sketchbook_pdf_download.html) by Paul Klee
 - [Early Computer Art](https://www.amygoodchild.com/blog/computer-art-50s-and-60s) by Amy GoodChild
 - [Long-form Generative Art](https://mirror.xyz/buffets.eth/33Qj-lYWwBTkxo1K5lJJ1MHgeZmc-i0jXoCAdzyEFZU) by Eugene Ang
 - [Color Arrangement](https://tylerxhobbs.com/essays/2021/color-arrangement-in-generative-art) by Tyler Hobbs
