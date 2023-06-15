@@ -64,12 +64,12 @@ The basic sketches are available within the `examples` folder of this repository
 - [Early Computer Art](https://www.amygoodchild.com/blog/computer-art-50s-and-60s) by Amy GoodChild
 - [Long-form Generative Art](https://mirror.xyz/buffets.eth/33Qj-lYWwBTkxo1K5lJJ1MHgeZmc-i0jXoCAdzyEFZU) by Eugene Ang
 - [Color Arrangement](https://tylerxhobbs.com/essays/2021/color-arrangement-in-generative-art) by Tyler Hobbs
-- [Generative Art Systems](https://www.fxhash.xyz/article/generative-art-systems-an-epistemological-approach) by me
+- [Generative Art Systems](https://www.fxhash.xyz/article/generative-art-systems-an-epistemological-approach)
 
 ### web3 & cryptoart communities 
 - [After the Creator Economy](https://collect.metalabel.xyz/files/After-The-Creator-Economy.pdf) by Metalabel
 - [Crypto Art Reading List](https://github.com/crcdng/nft-reading-list/blob/main/reading.md) by Michael Straeubig
-- [Tezos Art Communities](https://www.fxhash.xyz/article/tezos-art-communities) by me
+- [Tezos Art Communities](https://www.fxhash.xyz/article/tezos-art-communities)
 - [Radical Friends](https://ruthcatlow.net/?works=radical-friends-decentralised-autonomous-organisations-and-the-arts) by Ruth Catlow and Penny Rafferty
 - [Right Click Save](https://www.rightclicksave.com/) by ClubNFT
 
