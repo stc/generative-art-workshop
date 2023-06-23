@@ -1,7 +1,7 @@
 # generative-art-workshop
 Introduction to algorithmic thinking, conditional design and generative art using [p5js](https://p5js.org/) &amp; Javascript
 
-![examples](https://raw.githubusercontent.com/stc/generative-art-workshop/main/assets/examples-layers.jpg)
+![examples](https://raw.githubusercontent.com/stc/generative-art-workshop/main/assets/examples-layerz.jpg)
 
 This workshop introduces the fundamentals of algorithmic thinking and generative computer imaging. Participants can learn how to make artworks and creative visualizations using data, code, and interaction. Since there is an increasing overlap between cultural and human fields with technological and engineering domains among dynamically evolving networked communities, new kinds of languages are emerging that require both analytical and logical thinking as well as intuitive and proactive approaches from creators.
 
