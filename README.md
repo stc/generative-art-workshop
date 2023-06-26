@@ -65,6 +65,7 @@ The basic sketches are available within the `examples` folder of this repository
 - [Long-form Generative Art](https://mirror.xyz/buffets.eth/33Qj-lYWwBTkxo1K5lJJ1MHgeZmc-i0jXoCAdzyEFZU) by Eugene Ang
 - [Color Arrangement](https://tylerxhobbs.com/essays/2021/color-arrangement-in-generative-art) by Tyler Hobbs
 - [Generative Art Systems](https://www.fxhash.xyz/article/generative-art-systems-an-epistemological-approach)
+- [Tender Art](https://tender.art/)
 
 ### web3 & cryptoart communities 
 - [After the Creator Economy](https://collect.metalabel.xyz/files/After-The-Creator-Economy.pdf) by Metalabel
